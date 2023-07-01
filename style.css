@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.829);
+}
+
+div{
+    margin: 30px;
+}
+
+h1{
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td, th{
+    border: 1px solid rgb(116, 115, 115);
+    padding: 10px;
+}
+
+.head:hover{
+    background-color: rgb(139, 139, 235);
+    color: white;
+}
+
+.generos:hover{
+    background-color: rgb(163, 88, 233);
+    color: white;
+}
+
+.nomes1:hover{
+    background-color: rgb(228, 219, 98);
+    color: white;
+}
+
+.nomes2:hover{
+    background-color: rgb(240, 172, 83);
+    color: white;
+}
+
+.filmes:hover{
+    background-color: cadetblue;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 90px;
+    justify-content: center;
+}
+
+li{
+    padding: 10px;
+}
+
+li.ativo{
+    border-radius: 20px;
+    background-color: rgb(226, 202, 122);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(80, 78, 78);
+}
+
+img{
+    width: 15px;
+}
+
+/*pg2*/
+
+.cor{
+    background-color: gray;
+    color: white;
+}
+
+.left{
+    text-align: left;
+}
+
+.area:hover{
+    background-color: rgb(108, 214, 179);
+    color: white;
+}
+
+.m:hover{
+    background-color: chocolate;
+    color: white;
+}
+
+.n:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.med:hover{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+/*pg3*/
+
+.cnome{
+    background-color: darkseagreen;
+}
+
+.csexo{
+    background-color: rgb(150, 237, 100);
+}
+
+.cidade{
+    background-color: rgb(185, 145, 71);
+}
+
+.cprofissao{
+    background-color: rgb(253, 221, 173);
+}
+
+/*p4*/
+
+div#conteiner{
+    overflow-x: auto;
+}
+
+tr#p4:nth-child(even){
+    background-color: rgb(174, 193, 211);
+}
